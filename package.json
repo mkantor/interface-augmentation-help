@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "rm -rf dist *.tsbuildinfo && tsc --build && node ."
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery.terminal": "github:jcubic/jquery.terminal#docusaurus"
+  }
+}
